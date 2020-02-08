@@ -37,6 +37,18 @@
 </table>
 </div>
 <pre>
-&lt;script&gt;$(document).ready(function(){$(".success-demo").BitCompiler().showInlineMessageBox({messageBoxType:"success",message:"This is the auto close &lt;b&gt;success&lt;/b&gt; message",autoClose:{enabled:true,milliseconds:30000}});});&lt;/script&gt;
+<div class="success-demo"></div>
+<script>
+    $(document).ready(function() {
+        $(".success-demo").BitCompiler().showInlineMessageBox({
+            messageBoxType: "success",
+            message: "This is the auto close <b>success</b> message",
+            autoClose: {
+                enabled: true,
+                milliseconds: 30000
+            }
+        });
+    });
+</script>
 </pre>
 <a href='https://www.bitcompiler.com/jquery-inline-message-box' class="btn btn-lg btn-primary">Demo</a>
