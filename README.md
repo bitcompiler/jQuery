@@ -51,4 +51,4 @@
     });
 </script>
 </pre>
-<a href='https://www.bitcompiler.com/jquery-inline-message-box' class="btn btn-lg btn-primary">Demo</a>
+<a href='https://www.bitcompiler.com/jquery-inline-message-box' target="_blank" class="btn btn-lg btn-primary">Demo</a>
